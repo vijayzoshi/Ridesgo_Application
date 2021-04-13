@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/nosub">
+
+        <ImageView
+            android:id="@+id/imageView3"
+
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:layout_marginTop="70dp"
+            app:srcCompat="@drawable/driverimg" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:textSize="22dp"
+
+            android:text="No Driver alloted yet"
+            android:textColor="#070707" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/sub"
+        >
+    <ImageView
+        android:id="@+id/driverimageid"
+        android:layout_width="94dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/usericon" />
+
+    <TextView
+        android:id="@+id/nameid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Rakesh Chauhan"
+        android:textColor="#050505"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="Verified"
+        android:textColor="#070707" />
+    <TextView
+        android:id="@+id/expid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_marginBottom="60dp"
+        android:text="4 years Experienced"
+        android:textColor="#070707" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:text="Driver DL"
+        android:textColor="#070707"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/dlimageid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dl"
+        android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/driverimageid"
+        android:layout_width="94dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="10dp"
+      android:layout_gravity="center"
+        app:srcCompat="@drawable/usericon" />
+
+    <TextView
+        android:id="@+id/nameid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textColor="#090909"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/phonenoid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="+91 8377055197"
+        android:textColor="#090909" />
+
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="?android:attr/listDivider"
+      />
+
+    <Button
+        android:id="@+id/studentdetailsIid"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_gravity="start"
+        android:background="#FFFFFF"
+        android:bufferType="spannable"
+        android:paddingLeft="40dp"
+        android:text="Student Details"
+
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:typeface="sans" />
+
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="409dp"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="?android:attr/listDivider"
+        />
+
+    <Button
+        android:id="@+id/driverdetailsid"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_gravity="start"
+        android:background="#FFFFFF"
+        android:bufferType="editable"
+        android:paddingLeft="40dp"
+        android:text="Driver Details"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:typeface="sans" />
+
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="409dp"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="?android:attr/listDivider"
+        />
+
+    <Button
+        android:id="@+id/subscriptionid"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_gravity="start"
+        android:background="#FFFFFF"
+        android:bufferType="normal"
+        android:paddingLeft="40dp"
+        android:text="Subcription"
+
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:typeface="sans" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="409dp"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="?android:attr/listDivider"
+        />
+
+    <Button
+        android:id="@+id/customersupportid"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_gravity="start"
+        android:background="#FFFFFF"
+        android:bufferType="normal"
+        android:paddingLeft="40dp"
+        android:text="Customer Support"
+
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:typeface="sans" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="409dp"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="?android:attr/listDivider"
+        />
+
+    <Button
+        android:id="@+id/logoutid"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_gravity="start"
+
+        android:background="#FFFFFF"
+        android:bufferType="spannable"
+        android:paddingLeft="40dp"
+        android:text="Logout"
+
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:typeface="sans" />
+
+
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="409dp"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="?android:attr/listDivider"
+        />
+
+
+    <TextView
+        android:id="@+id/appversionid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="App Version 1.0.1"
+        android:textSize="12sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

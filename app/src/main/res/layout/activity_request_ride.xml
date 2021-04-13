@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RequestRide">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+
+        android:layout_marginBottom="50dp"
+        android:text="Confirm Student Details"
+
+        android:textColor="#0B0B0B"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="9dp"
+        android:text="Student Name"
+        android:textColor="#0C0C0C"
+
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/studentnameid"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="32dp"
+
+        android:textColor="#121111"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="9dp"
+        android:text="Class"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/classid"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="32dp"
+        android:inputType="number"
+        android:textColor="#121111"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="9dp"
+        android:text="School Name"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/schoolnameid"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="32dp"
+
+        android:textColor="#121111"
+        android:textSize="18sp"
+        />
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="9dp"
+        android:text="Home Address"
+        android:textColor="#0C0C0C"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/homeaddressid"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="35dp"
+
+        android:textColor="#121111"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/editdetailsid"
+        android:layout_width="195dp"
+        android:layout_height="45dp"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+
+        android:background="#090909"
+        android:text="Next"
+        android:textColor="#FFFFFF" />
+</androidx.appcompat.widget.LinearLayoutCompat>

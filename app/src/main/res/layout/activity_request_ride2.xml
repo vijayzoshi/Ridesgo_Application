@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".RequestRide2">
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="30dp"
+        android:text="Starting Date"
+        android:textColor="#0E0E0E"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/dateid"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="#4DDCDCDC"
+
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/calenderid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_menu_my_calendar" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="30dp"
+        android:text="Choose Your Subscription"
+        android:textColor="#0E0E0E"
+
+        android:textSize="22sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="130dp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="531dp">
+
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/skyblue"
+            android:checked="false"
+            android:text="3 Months"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/skyblue"
+            android:text="6 Months"
+            android:textColor="@color/white"
+            android:textColorLink="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitid"
+        android:layout_width="195dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="#0C0C0C"
+        android:text="Submit"
+        android:textColor="#FFFFFF" />
+</androidx.appcompat.widget.LinearLayoutCompat>
